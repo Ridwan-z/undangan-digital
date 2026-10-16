@@ -1,0 +1,15 @@
+﻿# root ignores (sub-project ignores tetap berlaku di subfolder)
+node_modules/
+dist/
+build/
+vendor/
+.env
+.env.local
+
+# media hasil unggahan admin (jangan ikut repo, cukup index.html)
+backend/public/uploads/*
+!backend/public/uploads/index.html
+
+# log & cache
+*.log
+.DS_Store
